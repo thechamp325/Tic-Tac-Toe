@@ -5,7 +5,7 @@ TicTacToe.java is a basic Java implementation of the well-known Tic Tac Toe game
 #### Model (M) - Contains the current state of the game and logic for checking win or tie
 #### View (V) - Contains the graphical user interface for interacting with the game
 #### Controller (C) - Contains the interface between View and Model
-### Computer Mode - Contains an AI bot built using Minimax Algorithm
+#### Computer Mode - Contains an AI bot built using Minimax Algorithm
 ### Game Flow
 
 The driver class creates instances of `Model`, `View` and `Controller` classes. The game starts with the `View` populating the graphical user interface and adding buttons for control. The `Adapter` then monitors the button for an event, and defines the `actionPerformed` for the `ActionListeners`. The `Adapter` class transfers control to the `Controller` class which notifies the `Model` that a move has been made on the (x,y) coordinate of the tic tac toe grid. The `Model` then updates its board state and accordingly updates the `View`. It also checks after every move if a winning condition has been achieved by a player or whether the game has tied and notifies the `View` with an appropriate message. The `Reset` button allows the user to clear the baord and start a new game.
