@@ -1,5 +1,5 @@
-# TicTacToe using MVC paradigm
-TicTacToe.java is a basic Java implementation of the well-known Tic Tac Toe game using MVC approach.
+# TicTacToe Game
+TicTacToe.java is a Java implementation of the Tic Tac Toe game using MVC approach.
 
 ### Design Choices
 #### Model (M) - Contains the current state of the game and logic for checking win or tie
